@@ -45,6 +45,7 @@
 </head>
 
 <body>
+<!-- Where all the pictures and names of it will be displayed -->
 
     <div class="container">
         <h1 class="text-center mb-4">Gallery</h1>
@@ -97,7 +98,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/kufi_style.jpg' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Kufi"> Kufic style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Kufi"> Kufic style</a>
                 </div>
             </div>
 
@@ -105,7 +106,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/muhaqqaq_style.jpeg' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Muhaqqaq"> Muhaqqaq style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Muhaqqaq"> Muhaqqaq style</a>
                 </div>
             </div>
 
@@ -113,7 +114,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/naskh_style.jpg' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Naskh"> Naskh style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Naskh"> Naskh style</a>
                 </div>
             </div>
 
@@ -121,7 +122,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/reyhan_style.jpg' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Rayhani"> Rayhani style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Rayhani"> Rayhani style</a>
                 </div>
             </div>
 
@@ -129,7 +130,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/riqa_style.JPEG' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Riqa"> Riqa style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Riqa"> Riqa style</a>
                 </div>
             </div>
 
@@ -137,7 +138,7 @@
                 <div class="background product">
                     <img src="{% static 'Calligraphy/thuluth_style.jpg' %}" class="img-fluid" alt="Islamic Calligraphy" style="width: 90%;">
 
-                    <a href="http://127.0.0.1:8000/Calligraphy/styles/#Thuluth"> Thuluth style</a>
+                    <a href="{% url 'Calligraphy:styles_list' %}#Thuluth"> Thuluth style</a>
                 </div>
             </div>
 

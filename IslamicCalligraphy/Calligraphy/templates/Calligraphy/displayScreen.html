@@ -2,6 +2,8 @@
 
 <html lang="en">
 
+<!-- This is where you can configure the style of your page -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,7 +139,7 @@
     </header>
 
     <main>
-
+<!-- Shows a greeting on successful login and a brief description of Arabic Calligraphy -->
         {% if user.is_authenticated %}
         <p>Hello, {{ user.username }}! You are logged in.</p>
         <p>Welcome to your webpage. Here's a brief description of Calligraphy...</p>

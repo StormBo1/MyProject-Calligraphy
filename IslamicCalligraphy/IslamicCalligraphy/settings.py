@@ -119,7 +119,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-LOGIN_REDIRECT_URL = '/Calligraphy/display/'
+LOGIN_URL = 'Calligraphy:login'
+LOGIN_REDIRECT_URL = 'Calligraphy:display_screen'
 
 
 # Default primary key field type
